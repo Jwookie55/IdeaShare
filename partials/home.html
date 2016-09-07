@@ -1,0 +1,16 @@
+<h2 class='luck'>Ideas ready for you!, Good luck!<h2>
+<hr class='main'>
+
+  <div ng-repeat='idea in ideas' class='idea'>
+    <p class='title' ng-model='ideaUpdate'>{{idea.projName}}</p>
+    <p class='ideaText'>{{idea.idea}}</p>
+    <div class='comments'>
+      <p class='comment' ng-repeat= 'comment in idea.comments'>{{comment.userName}}  {{comment.comment}}</p>
+    </div>
+    <form ng-submit="postcomment()">
+      <input type='text' placeholder='User Name' ng-model='user'></input>
+      <input type='text' placeholder='Join the Conversation' ng-model='comment' size=50></input>
+      <button type='submit'>Post comment</button>
+    </form>
+    <hr>
+  </div>

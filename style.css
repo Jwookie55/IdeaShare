@@ -1,0 +1,65 @@
+html{
+  background-color: grey;
+}
+
+.nav{
+  text-align: center;
+}
+
+.nav a{
+  font-size: 20px;
+  text-decoration: none;
+  color: #1da4e7;
+  margin: 5px 20px;
+}
+
+.nav p{
+  font-size: 20px;
+}
+
+hr{
+  width: 85%;
+  border-color: #1da4e7;
+}
+
+.luck{
+    color: #3e403d;
+}
+
+.main{
+  width: 90%;
+  border-color: #3e403d;
+}
+
+.idea{
+  font-size: 1em;
+  margin: 10px;
+}
+
+.ideaText, .title{
+  margin: 2px 10px;
+}
+
+.idea h2{
+  font-size: 1.5em;
+}
+
+.comments{
+  font-size: .5em;
+  margin: 5px 25px;
+}
+
+.newidea{
+  display: block;
+  margin: 10px auto;
+}
+
+.inline{
+  display: inline-block;
+ margin: 10px 10px;
+}
+
+.submit{
+  text-align: center;
+  margin: 0 auto;
+}

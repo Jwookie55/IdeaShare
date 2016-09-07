@@ -1,0 +1,11 @@
+<div class='submit'>
+  <h2>Please fill out the form and click submit to share your great Idea!</h2>
+
+  <form ng-submit="postIdea()">
+    <input type='text' placeholder='Username' class='inline' ng-model='user'></input>
+    <input type='text' placeholder='Project name' class='inline' ng-model='project'></input>
+    <input type='text' placeholder='Email' class='inline' ng-model='email'></input>
+    <textarea rows='10' cols='60' placeholder='Idea!' class='newidea' ng-model='newidea'></textarea>
+    <button type=submit>Submit this great Idea</button>
+  </form>
+</div>
