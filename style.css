@@ -18,8 +18,9 @@ html{
 }
 
 hr{
-  width: 85%;
+  width: 90%;
   border-color: #1da4e7;
+  margin: 0 auto;
 }
 
 .luck{
