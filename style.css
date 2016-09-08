@@ -64,3 +64,18 @@ hr{
   text-align: center;
   margin: 0 auto;
 }
+
+.left{
+  float: left;
+  width: 150px;
+}
+
+.right{
+  float: right;
+  width: 150px;
+  transform: scaleX(-1);
+}
+
+.block{
+  display: block;
+}
